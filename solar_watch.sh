@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# solar_watch.sh - Monitors a web page for changes
+# solar_watch.sh - Monitor for Extreme level Solar Storms
 # eSpeak alert if Extreme is found
-# Usage: ./solar_watch.sh https://hoshisato.com
-
-# DOMAIN=$1
 
 while true; do
 if curl -s https://services.swpc.noaa.gov/products/alerts.json | grep -i 'extreme' > /dev/null
