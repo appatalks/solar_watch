@@ -5,6 +5,7 @@ import urllib3
 # https://services.swpc.noaa.gov
 # https://towardsdatascience.com/5-minutes-to-create-an-aws-lambda-function-to-stay-updated-about-covid-19-in-your-area-88a4abe77a04
 # https://stackoverflow.com/questions/52194888/email-notification-through-sns-and-lambda
+# https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
 
 # Define URL - solar_watch.txt generated on Apache Server using solar_watch.sh
 url = 'https://example.com/solar_watch.txt'
