@@ -29,6 +29,8 @@ You can verify it is working by viewing the log:
  3) Add SNS Topic and EventBridge Trigger
     -- I have mine using carrier's Email to SMS Gateway to keep everything free 5555555555@mycarrier.com
     https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
-  
+4) Want more alerts, adjust code (Hint: grep to egrep) to watch for Extreme and Severe Level Events.
+
+ 
 Bitcoin Donation: 16CowvxvLSR4BPEP9KJZiR622UU7hGEce5
 Ethereum Donation: 0xf75278bd6e2006e6ef4847c9a9293e509ab815c5
