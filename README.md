@@ -17,17 +17,17 @@ Install Instructions:
 2) Ensure execute bit is enabled: 
    $ chmod +x /path/to/solar_watch.sh
 4) Add to crontab 
-   $ echo "@reboot /path/to/solar_watch.sh | tee /home/<user>/solar_watch.log" >> /var/spool/cron/<user>
+   $ echo "@reboot /path/to/solar_watch.sh | tee /home/myuser/solar_watch.log" >> /var/spool/cron/<user>
 
 You can verify it is working by viewing the log:
-  $ tail -f /home/<user>/solar_watch.log
+  $ tail -f /home/myuser/solar_watch.log
   
  *** BONUS Points to Impress your Girlfriend ***
  Get a Notification via Amazon SNS:
  1) Create a Lambda Function using solar_watch-lambda.py
  2) Create Destination S3 Bucket for Code Run
  3) Add SNS Topic and EventBridge Trigger
-    -- I have mine using carrier's Email to SMS Gateway to keep everything free <myphonenumber>@mycarrier.com
+    -- I have mine using carrier's Email to SMS Gateway to keep everything free 5555555555@mycarrier.com
     https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
   
 Bitcoin Donation: 16CowvxvLSR4BPEP9KJZiR622UU7hGEce5
