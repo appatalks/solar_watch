@@ -32,5 +32,5 @@ You can verify it is working by viewing the log:
 4) Want more alerts, adjust code (Hint: grep to egrep) to watch for Extreme and Severe Level Events.
 
  
-Bitcoin Donation: 16CowvxvLSR4BPEP9KJZiR622UU7hGEce5
+Bitcoin Donation: 16CowvxvLSR4BPEP9KJZiR622UU7hGEce5;
 Ethereum Donation: 0xf75278bd6e2006e6ef4847c9a9293e509ab815c5
