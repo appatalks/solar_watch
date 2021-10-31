@@ -25,7 +25,8 @@ You can verify it is working by viewing the log:
  *** BONUS Points to Impress your Girlfriend ***
  Get a Notification via Amazon SNS:
  1) Create a Lambda Function using solar_watch-lambda.py
- 2) Add SNS Topic and EventBridge Trigger
+ 2) Create Destination S3 Bucket for Code Run
+ 3) Add SNS Topic and EventBridge Trigger
     -- I have mine using carrier's Email to SMS Gateway to keep everything free <myphonenumber>@mycarrier.com
     https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
   
