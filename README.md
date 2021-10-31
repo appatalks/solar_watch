@@ -17,7 +17,7 @@ Install Instructions:
 2) Ensure execute bit is enabled: 
    $ chmod +x /path/to/solar_watch.sh
 4) Add to crontab 
-   $ echo "@reboot /path/to/solar_watch.sh | tee /home/myuser/solar_watch.log" >> /var/spool/cron/<user>
+   $ echo "@reboot /path/to/solar_watch.sh | tee /home/myuser/solar_watch.log" >> /var/spool/cron/myuser
 
 You can verify it is working by viewing the log:
   $ tail -f /home/myuser/solar_watch.log
