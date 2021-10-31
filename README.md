@@ -9,7 +9,7 @@ https://www.swpc.noaa.gov/communities/space-weather-enthusiasts
 https://services.swpc.noaa.gov/products/alerts.json
 
 Dependencies:
-cron (cronie); espeak; 
+cron (cronie);
 
 Install Instructions:
 
