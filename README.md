@@ -27,9 +27,9 @@ You can verify it is working by viewing the log:
  1) Create a Lambda Function using solar_watch-lambda.py; Add Permissions for SNS and S3
  2) Create Destination S3 Bucket for Code Run
  3) Add SNS Topic and EventBridge Trigger
-    -- I have mine using carrier's Email to SMS Gateway to keep everything free 5555555555@mycarrier.com
+    -- I have mine using carrier's Email to SMS Gateway to keep everything free 5555555555@mycarrier.com <p>
     https://www.digitaltrends.com/mobile/how-to-send-a-text-from-your-email-account/
-4) Want more alerts, adjust code (Hint: grep to egrep) to watch for Extreme and Severe Level Events.
+4) Want more alerts, adjust code (Hint: grep to egrep) to watch for Extreme and Severe Level Events. <p>
  https://www.swpc.noaa.gov/noaa-scales-explanation
 
  
