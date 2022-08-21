@@ -40,7 +40,7 @@ def lambda_handler(event, context):
         sns_client.publish(
             TopicArn = 'arn:aws:sns:us-east-1:000000000000:solar_watch_sns',
             Subject = 'EXTREME SOLAR ALERT DETECTED - TAKE ACTION NOW',
-            Message = 'EXTREME SOLAR ALERT DETECTED - TAKE ACTION NOW - https://www.swpc.noaa.gov/communities/space-weather-enthusiasts'
+            Message = 'EXTREME SOLAR ALERT DETECTED - TAKE ACTION NOW - https://www.swpc.noaa.gov/content/space-weather-enthusiasts-dashboard'
         )
         
         # Write new data to S3
